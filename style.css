@@ -220,4 +220,18 @@ nav{
   transform: scale(1.03);
 }
   
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single{
+    padding: 0 20px 20px;
+}
+.single img:hover{
+    opacity: .5;
+    transition: .9s;
+}
 
